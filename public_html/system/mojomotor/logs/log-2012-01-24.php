@@ -1,0 +1,20 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2012-01-24 07:04:16 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 07:14:36 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 07:14:41 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 07:14:44 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 07:14:53 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:26:10 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:26:11 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:26:59 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:27:41 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:28:22 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:28:38 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 09:28:49 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 12:00:13 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 12:00:37 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 13:43:12 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 21:33:46 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 22:13:48 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-24 22:13:49 --> 404 Page Not Found --> PIE.htc

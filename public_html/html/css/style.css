@@ -1,0 +1,80 @@
+/* CSS Document */
+html, body{margin:0px; padding:0px; height:100%; direction:ltr;}
+body{margin:0px; padding:0px; font-size:12px; color:#fff; background:url(../images/main_bg.jpg) repeat-x left top; font-family:Arial, Helvetica, sans-serif;}
+h1, h3, h4, h5, h6, h7, p, form, input, ul, li{padding:0px; margin:0px; font-weight:normal}
+p{}
+ul, ol, li{list-style:none}
+input, select, textarea{font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#000}
+a{text-decoration:none; outline:none}
+a:hover{text-decoration:none; outline:none}
+a img{border:0px; outline:none}
+.clear{clear:both; font-size:0px; height:0px; line-height:0px; background:#fff}
+.fleft{float:left}
+.fright{float:right}
+
+@font-face {
+ font-family: TitilliumText22L;
+ src: url('TitilliumText22L003');
+ src: local('O'), url('acid_0.otf') format('opentype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+/*----------- Master Div -----------------*/
+.master_div{margin:0px auto 0px auto; width:1000px;}
+/*----------- Header ------------------------*/
+.header{margin:0px auto; width:1000px; padding-top:45px;}
+.logo{float:left;}
+
+.top_nav{float:right; width:582px; background:url(../images/tp_nav_bg.png) no-repeat left top; padding:5px 0px 0px 0px;}
+.top_nav ul{margin:0px; padding:0px;}
+.top_nav li{float:left; padding:0px 11px 0px 11px; border-right:1px solid #96bd0d;}
+.top_nav li a{float:left; font-size:14px; font-family:TitilliumMaps29L; color:#f0f0f0;}
+.top_nav li a:hover{text-decoration:underline;}
+
+.top_nav li.last{padding:0px 0px 0px 11px; border-right:none;}
+
+/*----------- Contanier ------------------------*/
+.cont{margin:0px auto; width:1000px; clear:both; padding-top:35px;}
+
+.slider{float:left; width:1010px;}
+
+/*----------- Content Main ------------------------*/
+.cont_main{margin:25px auto; width:990px;}
+
+.cont_L{float:left; padding-top:15px; width:362px;}
+
+.cont_L_txt{float:left;}
+.cont_L_txt p.font_15{font-size:15px; line-height:22px;}
+.cont_L_txt p.font_12{font-size:12px; line-height:18px;}
+
+.cont_R{float:right; width:598px;}
+
+/*----------- Momnent of carity ------------------------*/
+.momnent_of_carity{float:left; behavior:url(PIE.htc); background:#0d0d0d; padding:22px 13px 10px 13px; border:1px solid #333333; -khtml-border-radius: 7px; -o-border-radius: 7px; -ms-border-radius: 7px; -icab-border-radius: 7px; border-radius: 7px; -moz-border-radius:7px;-webkit-border-radius:7px; border-radius:7px; }
+.momnent_of_carity p{font-size:13px; line-height:20px; padding:0px 0px 10px 13px;}
+.momnent_of_carity img{padding-top:8px;}
+
+/*----------- Latest collaboration ------------------------*/
+.latest_collaboration{float:left; padding:38px 0 30px 0; width:100%;}
+.latest_collaboration h1.tp_txt{font-size:20px; width:100%; font-family:TitilliumText22L; border-bottom:1px solid #7f7f7f; padding-bottom:6px;}	
+
+.latest_collaboration_L{float:left; padding-top:10px;}
+.latest_collaboration_L h2{font-size:12px; color:#82cfef; font-weight:bold; padding:5px 0px 5px 0px; margin:0px;}
+.latest_collaboration_L p{font-size:12px; line-height:18px;}
+.latest_collaboration_L a{font-size:12px; color:#96bd0d;}
+.latest_collaboration_L a:hover{text-decoration:underline;}
+
+.latest_collaboration_R{float:left; padding:17px 35px 0px 25px;}
+.latest_collaboration_R img{padding:5px 15px 5px 20px; behavior:url(PIE.htc); background:#191919; border:1px solid #333333; -khtml-border-radius: 7px; -o-border-radius: 7px; -ms-border-radius: 7px; -icab-border-radius: 7px; border-radius: 7px; -moz-border-radius:7px;-webkit-border-radius:7px; border-radius:7px;}
+
+/*----------- footer ------------------------*/
+.footer{margin:0px auto; border-top:1px solid #7f7f7f; padding:25px 0px 60px 0px; width:1000px;}
+.footer ul{margin:0px; padding:0px;}
+.footer li{float:left; padding:0px 8px 0px 8px; border-right:1px solid #4c4c4c;}
+.footer li a{float:left; font-size:12px; font-family:TitilliumMaps29L; color:#4c4c4c;}
+.footer li a:hover{text-decoration:underline;}
+
+.footer li.first{padding:0px 8px 0px 0px;}
+
+.footer span{float:right; color:#4c4c4c; font-family:Myriad Pro;}

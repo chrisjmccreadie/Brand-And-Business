@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MojoMotor User Guide</title>
+<style type="text/css" media="all">@import url('userguide.css');</style>
+<link rel="stylesheet" type="text/css" media="all" href="userguide.css" />
+
+<meta http-equiv="expires" content="-1" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="robots" content="all" />
+<meta name="author" content="MojoMotor Development Team" />
+<meta name="description" content="MojoMotor user Guide" /></head><body>
+
+<!-- START NAVIGATION -->
+<div id="masthead">
+<table style="width: 100%;" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td><h1>MojoMotor User Guide Version 1.1.2</h1></td>
+<td id="breadcrumb_right"><a href="toc.html">Table of Contents Page</a></td>
+</tr>
+</tbody></table>
+</div>
+<!-- END NAVIGATION -->
+
+
+<!-- START BREADCRUMB -->
+<table style="width: 100%;" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td id="breadcrumb">
+<a href="http://mojomotor.com/">MojoMotor Home</a> &nbsp;&#8250;&nbsp;
+<a href="index.html">User Guide Home</a> &nbsp;&#8250;&nbsp;
+Contact Form
+</td>
+<td id="searchbox"><form method="get" action="http://www.google.com/search"><input name="as_sitesearch" id="as_sitesearch" value="mojomotor.com/user_guide/" type="hidden" />Search User Guide&nbsp; <input class="input" style="width: 200px;" name="q" id="q" size="31" maxlength="255" value="" type="text" />&nbsp;<input class="submit" name="sa" value="Go" type="submit" /></form></td>
+</tr>
+</tbody></table>
+<!-- END BREADCRUMB -->
+
+<br clear="all" />
+
+<a name="top"></a>
+
+
+<!-- START CONTENT -->
+<div id="content">
+
+<h1>MojoMotor Contact Form</h1>
+
+<p>The purpose of this tag is to create a contact form on one of your pages that your users can use to send you email. To show your contact form use this tag pair:</p>
+
+<code>{mojo:contact:form}<br />
+<br />
+{/mojo:contact:form}</code>
+
+<p>The contact form is created similar to a standard web form, only you <b>do not</b> specify the opening and closing form tags;
+MojoMotor takes care of those for you. There are a few variables that are available in order to auto-fill fields in the form, and
+also a few tag parameters to specify form handling and hidden recipients. Here's an example showing how you might typically create a contact
+form:</p>
+
+<code>
+	&lt;h3&gt;Contact Form&lt;/h3&gt;<br />
+	<br />
+	&lt;!-- The following parameters are allowed also: 'name', 'id', 'class', 'style' --&gt;<br />
+	{mojo:contact:form from="me@example.com" recipients="you@example.com, someone_else@example.com" return="contact_thank_you"}<br />
+	<br />
+	&lt;!-- Optional subject, included for demo purposes. Subject can also be provided as a parameter --&gt;<br />
+	&lt;p&gt;&lt;label&gt;Subject: &lt;input type="text" name="subject" value="Website Contact form" /&gt;&lt;/label&gt;&lt;/p&gt;<br />
+	<br />
+	&lt;!-- The main body of the email should be called "message". It is required. --&gt;<br />
+	&lt;p&gt;&lt;label&gt;Message:&lt;br /&gt; &lt;textarea name="message" rows="5" cols="70"&gt;&lt;/textarea&gt;&lt;/label&gt;&lt;/p&gt;<br />
+	<br />
+	&lt;!-- MojoMotor will accept any number of arbitrary fields, and these will automatically be<br />
+	 included in the email --&gt;<br />
+	&lt;h4&gt;These fields are optional&lt;/h4&gt;<br />
+	&lt;p&gt;&lt;label&gt;One: &lt;input type="text" name="one" /&gt;&lt;/label&gt;&lt;/p&gt;<br />
+	&lt;p&gt;&lt;label&gt;Two: &lt;input type="text" name="two" /&gt;&lt;/label&gt;&lt;/p&gt;<br />
+	&lt;p&gt;&lt;label&gt;Three: &lt;input type="text" name="three" /&gt;&lt;/label&gt;&lt;/p&gt;<br />
+	<br />
+	&lt;p&gt;&lt;input type="submit" value="Send it off!" /&gt;&lt;/p&gt;<br />
+	<br />
+	{/mojo:contact:form}
+</code>
+
+<h3>From</h3>
+
+<p>The from parameter can be used to pass any desired email into the form. If the email isn't valid, or if this parameter is not provided, MojoMotor
+will fall back to the email of the admin user who installed it.</p>
+
+<h3>Subject</h3>
+
+<p>If you want your guest to be able to provide their own subject, you can include a field named "subject". MojoMotor also
+provides a <a href="#par_subject">subject parameter</a> for your use.</p>
+
+<p>Explicit subject fields (such as in the example above) will take precedence over subject parameters.</p>
+
+<h3>Message</h3>
+<p>The main body of the email should be called "message". It is the only field that is <em>not</em> optional.</p>
+
+<h3>Optional Fields</h3>
+
+<p>Outside of "subject", "from", "recipients" and "message" fields, MojoMotor will simply pass any additional fields it finds within your contact form into the
+email. You can include any additional fields you wish into your contact form.</p>
+
+<h2>Parameters</h2>
+
+<ul class="minitoc">
+	<li><a href="#par_subject">subject="This is my email subject"</a></li>
+	<li><a href="#par_name">name="myForm"</a></li>
+	<li><a href="#par_recipients">recipients="you@example.com"</a></li>
+	<li><a href="#par_return">return="http://www.example.com/index.php"</a></li>
+	<li><a href="#par_class">class="my_contact_form"</a></li>
+	<li><a href="#par_id">id="my_contact_forms_id"</a></li>
+	<li><a href="#par_style">style="attribute:value;"</a></li>
+
+</ul>
+
+<h3><a name="par_subject">subject=</a></h3>
+
+<code>subject="This is my email subject"</code>
+
+<p>This allows you to set a subject for your email. If you set your subject as a parameter, you should <em>not</em> include a subject field in your form.</p>
+
+
+<h3><a name="par_name">name=</a></h3>
+
+<code>name="myForm"</code>
+
+<p>This allows you to set a name= attribute for the form.  Keep in mind that name= is deprecated in XHTML.</p>
+
+
+<h3><a name="par_recipients">recipients=</a></h3>
+
+<code>recipients="admin@example.com"</code>
+
+<p>The <dfn>recipients</dfn> parameter allows you to specify the email address of the person (or persons) you want to receive the email. If
+you have more than one recipient, please separate each email address with a commas:</p>
+
+<code>recipients="admin@example.com,ceo@example.com,president@example.com"</code>
+
+
+<h3><a name="par_return">return=</a></h3>
+
+<code>return="page_name"</code>
+
+<p>This parameter lets you specify a page that you've created where the user should be directed after the form is submitted.</p>
+
+
+<h3><a name="par_class">class=</a></h3>
+
+<code>class="my_form"</code>
+
+<p>With this parameter, you can specify the css class you want the form to have, enabling fine-grained styling of the form.</p>
+
+<h3><a name="par_id">id=</a></h3>
+
+<code>id="contact_form"</code>
+
+<p>With this parameter, you can specify the id you want the form to have.</p>
+
+<h3><a name="par_style">style=</a></h3>
+
+<code>style="border: 1px solid black;"</code>
+
+<p>With this parameter, you can specify specific css styles within the form tag.</p>
+
+
+
+</div>
+<!-- END CONTENT -->
+
+
+
+<div id="footer">
+<p><a href="#top">Top of page</a></p>
+
+<p><a href="http://mojomotor.com">MojoMotor</a> &nbsp;&middot;&nbsp; Copyright © 2010 - 2011 &nbsp;&middot;&nbsp; <a href="http://ellislab.com/">Ellislab, Inc.</a></p>
+</div>
+
+</body></html>

@@ -1,0 +1,190 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2012-01-18 13:42:15 --> Severity: Warning  --> mysql_pconnect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) /home/brand/public_html/system/codeigniter/system/database/drivers/mysql/mysql_driver.php 88
+ERROR - 2012-01-18 13:42:15 --> Unable to connect to the database
+ERROR - 2012-01-18 13:42:15 --> Severity: Warning  --> chmod(): No such file or directory /home/brand/public_html/system/mojomotor/controllers/setup.php 208
+ERROR - 2012-01-18 13:43:04 --> Unable to select database: mojomotor
+ERROR - 2012-01-18 13:43:29 --> Severity: Notice  --> unserialize(): Error at offset 0 of 256 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 13:43:29 --> Severity: Notice  --> unserialize(): Error at offset 0 of 256 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 13:49:22 --> Severity: Notice  --> unserialize(): Error at offset 0 of 350 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 13:49:37 --> Severity: Warning  --> mysql_pconnect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) /home/brand/public_html/system/codeigniter/system/database/drivers/mysql/mysql_driver.php 88
+ERROR - 2012-01-18 13:49:37 --> Unable to connect to the database
+ERROR - 2012-01-18 13:49:49 --> Severity: Warning  --> mysql_pconnect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) /home/brand/public_html/system/codeigniter/system/database/drivers/mysql/mysql_driver.php 88
+ERROR - 2012-01-18 13:49:49 --> Unable to connect to the database
+ERROR - 2012-01-18 13:49:49 --> Severity: Warning  --> chmod(): No such file or directory /home/brand/public_html/system/mojomotor/controllers/setup.php 208
+ERROR - 2012-01-18 13:50:32 --> Severity: Notice  --> unserialize(): Error at offset 0 of 255 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 13:50:32 --> Severity: Notice  --> unserialize(): Error at offset 0 of 255 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 13:52:02 --> 404 Page Not Found --> homr
+ERROR - 2012-01-18 13:52:04 --> 404 Page Not Found --> home
+ERROR - 2012-01-18 13:52:39 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 13:52:39 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 13:52:39 --> 404 Page Not Found --> images/001.png
+ERROR - 2012-01-18 13:52:39 --> 404 Page Not Found --> images/logo.png
+ERROR - 2012-01-18 13:52:39 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 13:52:48 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 13:53:53 --> 404 Page Not Found --> images/logo.png
+ERROR - 2012-01-18 13:53:53 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 13:53:54 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 13:53:54 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 13:53:54 --> 404 Page Not Found --> images/001.png
+ERROR - 2012-01-18 13:54:16 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 13:55:48 --> 404 Page Not Found --> images/001.png
+ERROR - 2012-01-18 13:55:49 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 13:55:50 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 13:56:45 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 13:57:00 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 14:07:02 --> 404 Page Not Found --> Marketing
+ERROR - 2012-01-18 14:07:07 --> 404 Page Not Found --> marketing
+ERROR - 2012-01-18 14:15:17 --> Severity: Notice  --> unserialize(): Error at offset 0 of 351 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 14:15:27 --> Severity: Warning  --> mysql_pconnect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) /home/brand/public_html/system/codeigniter/system/database/drivers/mysql/mysql_driver.php 88
+ERROR - 2012-01-18 14:15:27 --> Unable to connect to the database
+ERROR - 2012-01-18 14:27:03 --> 404 Page Not Found --> login.php
+ERROR - 2012-01-18 14:27:07 --> 404 Page Not Found --> login.php
+ERROR - 2012-01-18 14:28:42 --> Severity: Warning  --> chmod(): No such file or directory /home/brand/public_html/system/mojomotor/controllers/setup.php 208
+ERROR - 2012-01-18 14:29:31 --> Severity: Notice  --> unserialize(): Error at offset 0 of 253 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 14:29:31 --> Severity: Notice  --> unserialize(): Error at offset 0 of 253 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 14:35:28 --> 404 Page Not Found --> images/logo.png
+ERROR - 2012-01-18 14:35:28 --> 404 Page Not Found --> images/001.png
+ERROR - 2012-01-18 14:35:28 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 14:35:29 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:35:29 --> 404 Page Not Found --> images/momnent_of_carity.png
+ERROR - 2012-01-18 14:36:15 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:37:14 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:37:20 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 14:37:21 --> 404 Page Not Found --> images/logo.png
+ERROR - 2012-01-18 14:37:21 --> 404 Page Not Found --> images/001.png
+ERROR - 2012-01-18 14:37:47 --> 404 Page Not Found --> css/style.css
+ERROR - 2012-01-18 14:38:04 --> 404 Page Not Found --> fiancial
+ERROR - 2012-01-18 14:39:33 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:41:01 --> 404 Page Not Found --> fiancial
+ERROR - 2012-01-18 14:41:34 --> 404 Page Not Found --> fiancial
+ERROR - 2012-01-18 14:42:02 --> 404 Page Not Found --> fiancial
+ERROR - 2012-01-18 14:42:08 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:42:37 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:55:47 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 14:56:08 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:00:41 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:02:18 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:02:28 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:03:26 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:03:36 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:08:19 --> Severity: Notice  --> unserialize(): Error at offset 0 of 223 bytes /home/brand/public_html/system/codeigniter/system/libraries/Session.php 746
+ERROR - 2012-01-18 15:08:21 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:08:38 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:08:46 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:09:25 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:09:34 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:09:36 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:09:43 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:10:01 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:10:32 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:11:12 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:11:20 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:12:16 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:12:37 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:13:48 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:14:04 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:14:34 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 15:17:16 --> 404 Page Not Found --> images/Experts_Guide_2012.png
+ERROR - 2012-01-18 18:22:57 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:24:01 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:25:07 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:25:25 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:25:29 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:25:34 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:26:17 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:26:48 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:33:28 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:33:31 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:33:39 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:33:49 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:33:55 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:34:02 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:34:17 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:34:18 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:34:47 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:35:16 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:35:21 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:35:42 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:04 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:08 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:10 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:12 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:15 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:16 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:19 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:21 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:23 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:26 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:28 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:30 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:36:33 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:40:55 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:41:51 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:42:45 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:43:03 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:43:05 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:43:17 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:43:47 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:43:57 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:44:07 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:44:22 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:44:34 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:45:13 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:45:25 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:45:52 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:46:14 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:50:27 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:54:08 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:54:43 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:54:57 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:55:01 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:55:07 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:55:30 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:55:38 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:55:44 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:56:26 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:56:55 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:57:38 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:58:15 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:59:10 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:59:29 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 18:59:50 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:00:15 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:00:38 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:01:40 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:02:32 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:03:26 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:03:50 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:04:47 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:04:52 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:05:30 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:07:22 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:08:46 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:09:01 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:09:54 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:09:56 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:21 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:24 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:26 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:28 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:33 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:37 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:39 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:10:41 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:11:20 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:11:41 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:11:43 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:11:47 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:12:26 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:12:34 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:14:57 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:15:04 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:15:36 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 19:17:13 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 20:28:42 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 20:28:56 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 20:29:06 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 20:29:10 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 20:29:15 --> 404 Page Not Found --> acid_0.otf
+ERROR - 2012-01-18 22:29:10 --> 404 Page Not Found --> acid_0.otf
