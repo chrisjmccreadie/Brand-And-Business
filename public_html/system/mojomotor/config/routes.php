@@ -46,7 +46,7 @@ $route = array(
 
 if (config_item('install_lock') == 'unlocked')
 {
-	$route["default_controller"] = "welcome";
+	$route["default_controller"] = "page";
 }
 
 /* End of file routes.php */

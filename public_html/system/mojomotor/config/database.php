@@ -37,10 +37,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'brand.mysql.fluxflex.com';
-$db['default']['username'] = 'brand';
-$db['default']['password'] = 'XbPMzyFt';
-$db['default']['database'] = 'brand';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'brandand_brand';
+$db['default']['password'] = '1q2w3e4r5t';
+$db['default']['database'] = 'brandand_brand';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'mojo_';
 $db['default']['pconnect'] = TRUE;
